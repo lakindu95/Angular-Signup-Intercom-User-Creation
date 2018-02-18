@@ -1,6 +1,9 @@
 # Angular-Signup-Intercom-User-Creation
 This is a simple application which integrates intercom with the angular 4 app and create an intercom user instantly when the user signup from angular 4 application.
 
+Read more on
+https://medium.com/@lakindu1995/creating-a-user-in-intercom-via-angular-4-signup-861e7d38ab8d
+
 # Install
 
 Step 1: Install the modules
@@ -10,14 +13,13 @@ Step 1: Install the modules
 Step 2: Add Intercom APP_ID to index.html and environments/environment.ts and environment.prod.ts
 
 ``` <script>
-            var APP_ID = "Your_APP_ID";
-          
-           window.intercomSettings = {
-              app_id: APP_ID
-            };
-          </script>
-    <script>
+       var APP_ID = "Your_APP_ID";
+       window.intercomSettings = {
+           app_id: APP_ID
+       };
+    </script>
 ```
+
 ```
 export const environment = {
   production: false,
