@@ -12,7 +12,8 @@ Step 1: Install the modules
 
 Step 2: Add Intercom APP_ID to index.html and environments/environment.ts and environment.prod.ts
 
-``` <script>
+``` 
+<script>
        var APP_ID = "Your_APP_ID";
        window.intercomSettings = {
            app_id: APP_ID
