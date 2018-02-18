@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.content{
+    position: absolute;
+    left:35%;        
+    top:20%;
+}

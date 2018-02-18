@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  APP_ID: 'YOUR_APP_ID'
+  APP_ID: 'Your_APP-ID'
 };
